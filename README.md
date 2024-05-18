@@ -10,3 +10,4 @@ React Projects
 6. Project Management App
 7. Simple Shop -> useContext, useReducer
 8. Place Picker -> useEffect
+9. React Counter -> Behind the Scenes of React, Introduction to MillionJS
