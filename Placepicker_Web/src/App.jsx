@@ -108,6 +108,7 @@ function App() {
 						title='An error occurred'
 						message={errorUpdatingPlaces.message}
 						onConfirm={handleError}
+						isModalError
 					/>
 				)}
 			</Modal>
@@ -122,13 +123,16 @@ function App() {
 				/>
 			</Modal>
 
-			<header>
+			<header className='text-center flex flex-col items-center'>
 				<img
+					className='w-20 h-20 object-contain drop-shadow-[0_0_8px_rgba(0,0,0,0.4)]'
 					src={logoImg}
 					alt='Stylized globe'
 				/>
-				<h1>PlacePicker</h1>
-				<p>
+				<h1 className='m-0 text-[3rem] uppercase tracking-[1rem]'>
+					PlacePicker
+				</h1>
+				<p className='my-0 mx-auto text-[1.15rem] max-w-[38ch] text-gray-400'>
 					Create your personal collection of places you would like to
 					visit or you have visited.
 				</p>
