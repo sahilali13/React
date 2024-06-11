@@ -11,3 +11,4 @@ React Projects
 7. Simple Shop -> useContext, useReducer
 8. Place Picker -> useEffect
 9. React Counter -> Behind the Scenes of React, Introduction to MillionJS
+10. Place Picker Web -> HTTP Requests
