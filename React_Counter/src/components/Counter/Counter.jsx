@@ -58,13 +58,19 @@ const Counter = memo(function Counter({ initialCount }) {
 	}, []);
 
 	return (
-		<section className='counter'>
-			<p className='counter-info'>
+		<section
+			className='my-8 mx-0 p-8 border border-solid border-teal-700 rounded-md'
+			// className='counter'
+		>
+			<p
+				className='gap-8 justify-center items-center my-0 mx-auto block text-[0.8rem] text-teal-400 text-center'
+				// className='counter-info'
+			>
 				The initial counter value was <strong>{initialCount}</strong>.
 				It <strong>is {initialCountIsPrime ? 'a' : 'not a'}</strong>{' '}
 				prime number.
 			</p>
-			<p>
+			<p className='flex gap-8 justify-center items-center my-0 mx-auto text-2xl pt-4'>
 				<IconButton
 					icon={MinusIcon}
 					onClick={handleDecrement}
