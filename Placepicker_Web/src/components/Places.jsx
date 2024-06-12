@@ -8,10 +8,7 @@ export default function Places({
 }) {
 	console.log(places);
 	return (
-		<section
-			// className='places-category'
-			className='max-w-[85rem] my-8 mx-auto p-4 border-2 border-solid border-gray-800 rounded-lg'
-		>
+		<section className='max-w-[85rem] my-8 mx-auto p-4 border-2 border-solid border-gray-800 rounded-lg'>
 			<h2 className='font-raleway text-2xl m-0 p-0 mb-4 text-cyan-200 text-center'>
 				{title}
 			</h2>
@@ -20,14 +17,10 @@ export default function Places({
 				<p className='text-center'>{fallbackText}</p>
 			)}
 			{!isLoading && places.length > 0 && (
-				<ul
-					// className='places'
-					className='max-w-7xl grid grid-cols-[repeat(auto-fill,minmax(18rem,1fr))] gap-8 my-8 mx-auto p-0 list-none'
-				>
+				<ul className='max-w-7xl grid grid-cols-[repeat(auto-fill,minmax(18rem,1fr))] gap-8 my-8 mx-auto p-0 list-none'>
 					{places.map((place) => (
 						<li
 							key={place.id}
-							// className='place-item'
 							className='relative flex flex-col rounded-lg bg-gray-900 shadow-[0_0.5rem_1rem_rgba(0,0,0,0.15)] animate-slide-up-fade-in group'
 						>
 							<button
