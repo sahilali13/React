@@ -14,4 +14,3 @@ React Projects
 10. Place Picker Web -> HTTP Requests
 
 Kuch bhi
-`
